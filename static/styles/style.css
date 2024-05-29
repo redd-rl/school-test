@@ -1,0 +1,37 @@
+body {
+  background-color: rgb(30,30,30);
+}
+a, p {
+  font-family: 'Lexend';
+  color: white;
+  outline-color: white; 
+}
+
+.initialdescription {
+  margin-top: 3em;
+  display: flex;
+  position: left;
+}
+.astrid {
+  width: 25%;
+  display: inline;
+  position: right;
+}
+.navbar {
+  background-color: #333;
+  overflow: hidden;
+  place-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.grid {
+  justify-content: center;
+  align-content: center;
+ display: flex;
+  flex-wrap: wrap;
+ grid-template-columns: auto auto auto;
+ width: 100%;
+ gap: 25px;
+ padding: 10px;
+}
